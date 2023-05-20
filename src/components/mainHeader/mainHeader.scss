@@ -1,0 +1,64 @@
+
+.mainHeader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+
+    .mainHeader-group-one {
+        display: flex;
+        align-items: center;
+
+        gap: 1.5rem;
+
+        h1 {
+            font-size: 6.5rem;
+        }
+
+        span {
+            background-color: #4eabf7;
+
+            padding: 2rem 4rem;
+            border-radius: 10rem;
+
+            cursor: pointer;
+
+            transition: all .4s ease;
+
+            &:hover {
+                scale: 1.075;
+                transition: all .4s ease-in-out;
+            }
+        }
+    }
+
+    .mainHeader-group-two {
+        display: flex;
+        align-items: center;
+
+        gap: 1.5rem;
+
+        h1 {
+            font-size: 6.5rem;
+        }
+
+        span {
+            background-color: #4eabf7;
+
+            padding: 2rem 4rem;
+            border-radius: 10rem;
+
+            cursor: pointer;
+
+            transition: all .4s ease;
+
+            &:hover {
+                scale: 1.075;
+                transition: all .4s ease-in-out;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+
+.projectsPreview-container {
+    display: flex;
+    justify-content: center;
+
+    gap: 2rem;
+
+    margin-top: 5rem;
+
+    overflow: hidden;
+
+    .auth-project {
+        width: 35rem;
+        height: 35rem;
+
+        object-fit: cover;
+
+        border-radius: 2rem;
+    }
+
+    .unsplash-project {
+        width: 35rem;
+        height: 35rem;
+
+        object-fit: cover;
+
+        border-radius: 2rem;
+
+        margin-top: 3rem;
+    }
+
+    .img-uploader-project {
+        width: 35rem;
+        height: 35rem;
+
+        object-fit: cover;
+
+        border-radius: 2rem;
+
+        margin-top: 6rem;
+    }
+}
